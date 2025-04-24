@@ -9,7 +9,6 @@ public class MyTestingClass {
 
     @Override
     public int hashCode() {
-        // Custom hashCode (без использования Objects.hash)
         int result = 17;
         result = 31 * result + id;
         for (char c : name.toCharArray()) {
